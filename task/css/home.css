@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-image: linear-gradient( to right,#ff6f00fe , #ff88008a) , url(../photo/download.jfif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+nav h1{
+    width: 30%;
+    font-size: 50px;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border : 2px solid transparent;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    transition: .7s;
+}
+ nav ul li a:hover{
+    color: orangered;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+.content{
+  
+    display: flex;
+    margin: 2px;
+    padding: 5px;
+
+}
+.content h1{
+    font-size: 50px;
+}
+ .content ul{
+list-style: none;
+
+}
+.content ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .7s;
+    padding: 2px;
+    margin: 4px;
+
+}
+.content ul li a:hover{
+    border-radius: 5px;
+    color: rgba(9, 4, 0, 0.882);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.photos{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+.photos a{
+    height: 350px;
+    width: 10%;
+    border: 2px solid rgba(255, 253, 250, 0.755);   
+    border-radius: 10px;
+    transition: all .9s;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.photos a:hover{
+    width: 25%;
+}
+
+footer:hover{
+    background-color: #000000e2;
+    color: white;
+    transition: .6s;
+    transition-timing-function: ease-in-out;
+
+    box-shadow: -10px 5px 3px 20px #000000e2
+}
+footer h1{
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    display: flex  ;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li a {
+   
+    
+    color: white;
+    font-size: 30px;
+    transition: .7s;
+    
+}
+footer ul li a:hover{
+    
+    color: orangered;
+    font-size: 40px;
+
+}  
+footer ul li a #phone:hover{
+    color: green;
+}
+footer ul li a #mail:hover{
+    color: red;
+}
+footer ul li a #facebook:hover{
+    color: #2043c3;
+}
